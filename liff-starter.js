@@ -99,7 +99,7 @@ function registerButtonHandlers() {
     // openWindow call
     document.getElementById('openWindowButton').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://catatanliffv2.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
+            url: 'https://catatankuliffv2.herokuapp.com/', // Isi dengan Endpoint URL aplikasi web Anda
             external: true
         });
     });
